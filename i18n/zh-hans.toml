@@ -24,10 +24,10 @@ other = "{{ .WordCount }} 字"
 other = "目录"
 
 [newer]
-other = "新"
+other = "前一篇"
 
 [older]
-other = "旧"
+other = "后一篇"
 
 # partials/header.html
 #
