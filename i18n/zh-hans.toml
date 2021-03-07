@@ -23,6 +23,13 @@ other = "{{ .WordCount }} 字"
 [tableOfContents]
 other = "目录"
 
+[createdOn]
+other = "{{ .Date.Format .Site.Params.dateform }} 创建"
+
+[updatedOn]
+other = "更新于 {{ .Page.Lastmod }}"
+
+
 [newer]
 other = "前一篇"
 
