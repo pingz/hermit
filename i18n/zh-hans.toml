@@ -27,7 +27,7 @@ other = "目录"
 other = "{{ .Date.Format .Site.Params.dateform }} 创建"
 
 [updatedOn]
-other = "更新于 {{ .Page.Lastmod }}"
+other = "更新于"
 
 
 [newer]
