@@ -20,6 +20,12 @@ other = "See Also"
 [wordCount]
 other = "{{ .WordCount }} Words"
 
+[createdOn]
+other = "Created On {{ .Date.Format .Site.Params.dateform }}"
+
+[updatedOn]
+other = "Updated At {{ .Page.Lastmod }}"
+
 [tableOfContents]
 other = "Table of Contents"
 
